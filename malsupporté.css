@@ -1,0 +1,103 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background: url("./img/IMGBG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 275px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 0 15px 0 whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.container button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Lora", serif;
+  background: rgb(7, 44, 59);
+  color: whitesmoke;
+  font-size: 27px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+/*
+
+style.css de secours pour le live coding de lundi!!!!!
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home {
+  background: url("./img/IMGBG.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 275px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 0 15px 0 whitesmoke;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: "Lora", serif;
+  background: rgb(7, 44, 59);
+  color: whitesmoke;
+  font-size: 27px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.container:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  inset: 0;
+  filter: blur(10px);
+  margin: -20px;
+}
+*/
